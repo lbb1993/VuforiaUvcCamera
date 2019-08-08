@@ -1,0 +1,5 @@
+/Users/mac02/Downloads/vuforia-sdk-android-7-5-26/samples/UVCDriver/build/bin/Android/armeabi-v7a/libUVCDriver.so
+/Users/mac02/Downloads/vuforia-sdk-android-7-5-26/samples/UVCDriver/build/bin/Android/armeabi-v7a/libuvc.so
+/Users/mac02/Downloads/vuforia-sdk-android-7-5-26/samples/UVCDriver/build/bin/Android/armeabi-v7a/libusb100.so
+/Users/mac02/Downloads/vuforia-sdk-android-7-5-26/samples/UVCDriver/build/bin/Android/armeabi-v7a/libjpeg-turbo1500.so
+/Users/mac02/Downloads/vuforia-sdk-android-7-5-26/samples/UVCDriver/build/bin/Android/UVCDriver.jar

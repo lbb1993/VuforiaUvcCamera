@@ -1,0 +1,8 @@
+# ninja log v5
+0	557	1544085165	CMakeFiles/UVCDriver.dir/src/UVCDriver.cpp.o	1048356d1fe66615
+1	1034	1544085166	CMakeFiles/UVCDriver.dir/src/UVCExternalCamera.cpp.o	7eda4f756ddf2002
+1034	1138	1544085166	libUVCDriver.so	6586ab305db4390c
+1	1315	1544085166	CMakeFiles/UVCDriver_Java.dir/java_compiled_UVCDriver_Java	b747d364b40b9d15
+1315	1325	1544085166	CMakeFiles/UVCDriver_Java.dir/java_class_filelist	577c0c9043d1d85d
+1325	1452	1544085166	UVCDriver.jar	f529834e89cec4e7
+1452	1517	0	CMakeFiles/install.util	96a875e770af82d7

@@ -1,0 +1,10 @@
+<CalibrationRoot>
+	<!--
+	<CameraDevice VID="0x045E" PID="0x0810">
+		<Calibration size="640 480" principal_point="318.135 228.374" focal_length="678.154 678.17" distortion_coefficients="0.154576 -1.19143 0 0 2.06105 0 0 0" />
+	</CameraDevice>
+	<CameraDevice VID="0x046D" PID="0x081B">
+		<Calibration size="640 480" principal_point="316 230.895" focal_length="817.172 816.951" distortion_coefficients="-0.0456154 0.368814 0 0 -0.899576 0 0 0" />
+	</CameraDevice>
+	-->
+</CalibrationRoot>

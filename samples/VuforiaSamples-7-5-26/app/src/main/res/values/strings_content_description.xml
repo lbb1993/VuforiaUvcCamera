@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="descr_loading_icon">Progress indicator</string>
+    <string name="descr_scan_line">Scan line</string>
+    <string name="descr_vumark_instance">Detected VuMark image</string>
+
+</resources>

@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+def VUFORIA_SDK_DIR = '../../../'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    sourceSets.main {
+        jni.srcDirs = []
+        jniLibs.srcDir "$VUFORIA_SDK_DIR/build/lib/"
+    }
+
+    defaultConfig {
+        applicationId "com.vuforia.VuforiaSamples"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 750
+        versionName "7.5"
+
+        ndk {
+            // Default ABI list for this app, can be over-ridden by providing an abiList property
+            // e.g. gradle -PabiList=x86 clean assembleDebug
+            abiFilters ((project.findProperty('abiList') ?: 'armeabi-v7a').split(/,\s*/))
+        }
+    }
+
+    archivesBaseName = rootProject.projectDir.getName()
+
+    // Ensure that Vuforia datasets placed in the assets folder do not get compressed as
+    // this can significantly increase their loading time
+    aaptOptions {
+        noCompress 'dat'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    // ARCore library
+    implementation 'com.google.ar:core:1.4.0'
+//    implementation files('libs/UVCDriver.jar')
+    implementation files('libs/Vuforia.jar')
+}
